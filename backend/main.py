@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from services.transaction_service import find_transaction, get_all_transactions
+
+from services.transaction_service import find_transaction
 from models.transaction_models import TransactionResponse
 
 
@@ -32,10 +33,3 @@ def get_transaction(transaction_id: str):
         )
 
     return result
-@app.get(
-    "/api/transactions",
-    response_model=list[TransactionResponse]
-)
-def get_transactions():
-
-    return get_all_transactions()
