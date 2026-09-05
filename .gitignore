@@ -3,4 +3,5 @@ venv/
 __pycache__/
 *.pyc
 .env
+users.db
 .vscode/
