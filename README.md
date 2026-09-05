@@ -26,9 +26,9 @@ Because these systems operate on differing protocols and batch cadences, traditi
 
 ## 👥 Project Team
 
-* **ARGHAJIT SAHA** — *System Architecture & Full-Stack Integration*
-* **AMRIT RAJ RAI** — *Backend & Data Engineering*
-* **ARJUN TIWARI** — *Reconciliation Logic & Validation*
+* **ARGHAJIT SAHA** 
+* **AMRIT RAJ RAI** 
+* **ARJUN TIWARI** 
 
 ---
 
